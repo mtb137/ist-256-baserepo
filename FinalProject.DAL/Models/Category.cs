@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace FinalProject.DAL.Models
 {
-	public class Class1
+	public class Category
 	{
-		public string Name { get; set; }
+			public int CategoryId { get; set; }
+			public string CategoryName { get; set; }
+			public string Description { get; set; }
+
 	}
 }

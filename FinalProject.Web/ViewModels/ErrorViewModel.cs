@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace FinalProject.Web.ViewModels
 {
 	/// <summary>
@@ -12,6 +14,7 @@ namespace FinalProject.Web.ViewModels
 		/// <summary>
 		/// HR Result - Status of the executed code -- error number to show to user to be used in identifying the error in splunk logs
 		/// </summary>
+		[Display(Name ="A Nicely Named Field")]
         public string? HrResult { get; set; }
 		/// <summary>
 		/// IIS Error number
